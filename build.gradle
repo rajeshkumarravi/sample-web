@@ -10,6 +10,10 @@ ext {
   jerseyVersion = '2.27'
 }
 
+war {
+    archiveName = 'sample-web.war'
+}
+
 dependencies {
 	compile "org.glassfish.jersey.containers:jersey-container-servlet:$jerseyVersion"
 	compile "org.glassfish.jersey.inject:jersey-hk2:$jerseyVersion"
