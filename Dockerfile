@@ -4,9 +4,7 @@ ARG CURR_DIR
 
 LABEL maintainer="Rajesh Kumar Ravi <rkr757@gmail.com>"
 
-WORKDIR $CURR_DIR
-
-COPY $CURR_DIR/build/libs/sample-web.war /usr/local/tomcat/webapps/sample-web.war
+COPY ./build/libs/sample-web.war /usr/local/tomcat/webapps/sample-web.war
 
 # local application port
 EXPOSE 8080
