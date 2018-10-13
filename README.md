@@ -5,7 +5,7 @@ Simple java rest service application to test cicd process
 ## Docker build
 
 ```shell
-docker build -t sample-web .
+docker build -t sample-web --build-arg CURR_DIR=. .
 ```
 
 ## Docker run
