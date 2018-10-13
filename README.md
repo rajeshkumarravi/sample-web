@@ -1,4 +1,4 @@
-# sample-web demo
+# sample-web demo app
 
 Simple java rest service application to test cicd process
 
