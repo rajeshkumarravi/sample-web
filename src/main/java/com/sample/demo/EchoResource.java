@@ -5,8 +5,10 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 
-@Path("echo")
+@Path(EchoResource.V1_ECHO)
 public class EchoResource {
+
+	static final String V1_ECHO = "v1/echo";
 
 	@GET
 	@Produces("text/plain")

@@ -1,4 +1,4 @@
-# sample-web
+# sample-web demo
 
 Simple java rest service application to test cicd process
 
@@ -13,3 +13,8 @@ docker build -t sample-web .
 ```shell
 docker run -it --rm -p 8888:8080 sample-web
 ```
+
+## Sample API
+
+<http://localhost:8888/sample-web/api/v1/hello>
+<http://localhost:8888/sample-web/api/v1/echo?m=helloworld>

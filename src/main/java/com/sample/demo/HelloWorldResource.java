@@ -7,8 +7,9 @@ import javax.ws.rs.core.MediaType;
 
 import org.apache.log4j.Logger;
 
-@Path("hello")
+@Path(HelloWorldResource.V1_HELLO)
 public class HelloWorldResource {
+	static final String V1_HELLO = "v1/hello";
 	private static final Logger logger = Logger.getLogger(HelloWorldResource.class);
 
 	@GET
