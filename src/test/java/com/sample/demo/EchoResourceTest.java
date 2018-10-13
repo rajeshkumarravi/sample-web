@@ -1,10 +1,10 @@
-package sample.net.hello;
+package com.sample.demo;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-import sample.net.hello.EchoResource;
+import com.sample.demo.EchoResource;
 
 /**
  * Unit test for EchoResource

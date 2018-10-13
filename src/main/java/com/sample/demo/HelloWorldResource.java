@@ -1,4 +1,4 @@
-package sample.net.hello;
+package com.sample.demo;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
