@@ -2,10 +2,28 @@
 
 Simple java rest service application to test cicd process
 
+## App build
+
+```shell
+gradle clean build
+```
+
+## App unit test
+
+```shell
+gradle test
+```
+
+## Code coverage [Optional, needs to config in gradle build file]
+
+```shell
+gradle JacocoTestReport jacocoTestCoverageVerification
+```
+
 ## Docker build
 
 ```shell
-docker build -t sample-web --build-arg CURR_DIR=. .
+docker build -t sample-web .
 ```
 
 ## Docker run

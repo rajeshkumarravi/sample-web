@@ -1,7 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'war'
-apply plugin: "jacoco"
+// apply plugin: "jacoco"
 
 repositories {
     mavenCentral()
@@ -15,13 +15,13 @@ war {
     archiveName = 'sample-web.war'
 }
 
-jacocoTestReport {
-    reports {
-        xml.enabled true
-        // csv.enabled false
-        // html.destination file("${buildDir}/jacocoHtml")
-    }
-}
+// jacocoTestReport {
+//     reports {
+//         xml.enabled true
+//         // csv.enabled false
+//         // html.destination file("${buildDir}/jacocoHtml")
+//     }
+// }
 
 dependencies {
 	compile "org.glassfish.jersey.containers:jersey-container-servlet:$jerseyVersion"
