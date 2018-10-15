@@ -13,6 +13,9 @@ public class EchoResource {
 	@GET
 	@Produces("text/plain")
 	public String echo(@QueryParam("m") String message) {
+		if("hello".trim().equalsIgnoreCase(message)) {
+			return "echo: hi";
+		}
 		return "echo: " + message;
 	}
 }
